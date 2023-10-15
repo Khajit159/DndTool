@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f63a423c7c313954ca6c860d051e0d8c, type: 3}
+  m_Name: Warlock
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: Warlock
+  <Tile>k__BackingField: {fileID: 11400000, guid: ca8f6c364a31cda4888b2002346aa39a, type: 2}
+  <PreviewSprite>k__BackingField: {fileID: 21300000, guid: bf829df1cb8d52f41813a2d52637b79c, type: 3}
