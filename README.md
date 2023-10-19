@@ -1,1 +1,2 @@
-# DndTool
+# DnDTool
+ Tool for DnD
