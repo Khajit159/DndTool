@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 5272486354733097180}
   - component: {fileID: 5272486354733097181}
   - component: {fileID: 7244903683263259066}
-  - component: {fileID: 3335303878149025917}
+  - component: {fileID: 68111422331153295}
   m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
@@ -325,7 +325,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.25
---- !u!114 &3335303878149025917
+--- !u!114 &68111422331153295
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -334,12 +334,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5272486354733097183}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7235684ae1c995c439565876fb65374d, type: 3}
+  m_Script: {fileID: 11500000, guid: 33b4e0306cc236b40aab71646bc5780a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _objectmenu: {fileID: 0}
-  WhatDoOnMouseClick: SetSelectedEntity
-  IsSelected: 0
+  WhatShouldDo: 3
 --- !u!1 &5272486355079151657
 GameObject:
   m_ObjectHideFlags: 0

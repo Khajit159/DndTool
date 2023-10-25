@@ -7,6 +7,8 @@ using UnityEngine;
 public class FileExplorer : MonoBehaviour
 {
     public string CurrentPath = "";
+    public Dictionary<int, string> LoadedSongs = new Dictionary<int, string>();
+    public List<string> AlreadyPlayed = new List<string>();
 
     [SerializeField] GameObject Content;
     [SerializeField] GameObject DirectoryPrefab;
@@ -69,8 +71,10 @@ public class FileExplorer : MonoBehaviour
     // Shows only files with extension .wav , .mp3 or .ogg at current path
     private void ShowFiles()
     {
+        LoadedSongs.Clear();
         DirectoryInfo dir = new DirectoryInfo(CurrentPath);
         FileInfo[] fileInfo = dir.GetFiles();
+        int CurrentNumber = 0;
 
         foreach (FileInfo fi in fileInfo)
         {
@@ -80,6 +84,8 @@ public class FileExplorer : MonoBehaviour
                 string FileNameWithoutExtension = Path.GetFileNameWithoutExtension(fi.FullName);
                 newfile.name = FileNameWithoutExtension;
                 newfile.transform.GetChild(0).transform.GetComponent<TMP_Text>().text = FileNameWithoutExtension;
+                CurrentNumber++;
+                LoadedSongs.Add(CurrentNumber, Path.GetFileNameWithoutExtension(fi.FullName));
             }
 
         }
