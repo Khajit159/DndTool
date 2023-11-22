@@ -117,7 +117,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Buildings_0
+      name: Snow_House1
       rect:
         serializedVersion: 2
         x: 0
@@ -125,7 +125,7 @@ TextureImporter:
         width: 192
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -138,7 +138,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_1
+      name: Snow_Tent2
       rect:
         serializedVersion: 2
         x: 192
@@ -146,7 +146,7 @@ TextureImporter:
         width: 192
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -159,7 +159,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_2
+      name: Snow_House3
       rect:
         serializedVersion: 2
         x: 384
@@ -167,7 +167,7 @@ TextureImporter:
         width: 192
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -180,7 +180,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_3
+      name: Snow_House2
       rect:
         serializedVersion: 2
         x: 0
@@ -188,7 +188,7 @@ TextureImporter:
         width: 192
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -201,7 +201,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_4
+      name: Snow_Tent
       rect:
         serializedVersion: 2
         x: 192
@@ -209,7 +209,7 @@ TextureImporter:
         width: 192
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -222,15 +222,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_5
+      name: Snow_House4
       rect:
         serializedVersion: 2
         x: 384
-        y: 160
+        y: 158
         width: 192
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -243,7 +243,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_6
+      name: Snow_Big_House1
       rect:
         serializedVersion: 2
         x: 0
@@ -251,7 +251,7 @@ TextureImporter:
         width: 352
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -264,7 +264,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Buildings_7
+      name: Snow_Big_House2
       rect:
         serializedVersion: 2
         x: 352
@@ -272,7 +272,7 @@ TextureImporter:
         width: 352
         height: 160
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -295,14 +295,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Buildings_2: -563108145
-      Buildings_0: -393054285
-      Buildings_6: 870575800
-      Buildings_7: 399241911
-      Buildings_1: -92846989
-      Buildings_4: -1036923734
-      Buildings_5: 663956952
-      Buildings_3: -714504115
+      Snow_House1: -393054285
+      Snow_House2: -714504115
+      Snow_House4: 663956952
+      Snow_Big_House2: 399241911
+      Snow_Tent: -1036923734
+      Snow_Big_House1: 870575800
+      Snow_Tent2: -92846989
+      Snow_House3: -563108145
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

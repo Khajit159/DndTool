@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f63a423c7c313954ca6c860d051e0d8c, type: 3}
+  m_Name: Snow_House3
+  m_EditorClassIdentifier: 
+  <Name>k__BackingField: House3
+  <Tile>k__BackingField: {fileID: 0}
+  <PreviewSprite>k__BackingField: {fileID: -563108145, guid: 48e0ccf6bc42c124fbf1817e9b5984a8, type: 3}
+  <GameObject>k__BackingField: {fileID: 3147172118946860440, guid: 0a05cb595d4f7284ea1885e016e2e7ba, type: 3}

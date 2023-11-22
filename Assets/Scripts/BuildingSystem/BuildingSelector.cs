@@ -27,6 +27,7 @@ namespace BuildingSystem
         {
             string ClickedButtonName = EventSystem.current.currentSelectedGameObject.name;
             _buildingPlacer.SetActiveBuildable(_buildables.Where(obj => obj.name == ClickedButtonName).SingleOrDefault());
+            Debug.Log(ClickedButtonName);
             _constructionLayer.SelectedEntityName = null;
         }
     }
